@@ -46,7 +46,7 @@
             <div class="nav-wrapper container">
                 <a id="logo-container" href="#" class="brand-logo">Javascript RPC</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="http://github.com/banhtieu">Github</a></li>
+                    <li><a href="https://github.com/banhtieu/Javascript2Net-RPC">Github</a></li>
                 </ul>
             </div>
         </nav>
