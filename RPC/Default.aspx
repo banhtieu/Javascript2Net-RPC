@@ -99,6 +99,8 @@ function buttonClicked() {
         </div>
         <div class="row center">
             <a href="javascript: buttonClicked()" id="download-button" class="btn-large waves-effect waves-light orange">Try</a>
+            <a href="./Angular.aspx" id="view-angular-button" class="btn-large waves-effect waves-light">Angular in Action</a>
+            <a href="https://github.com/banhtieu/Javascript2Net-RPC" id="view-github" class="btn-large waves-effect waves-light">Download</a>
         </div>
     </form>
 </body>

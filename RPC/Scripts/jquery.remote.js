@@ -48,12 +48,18 @@
                 }
 
                 if (object.onload) {
-                    object.onload(object);
+                    object.onload();
                 }
+
+                object.isReady = true;
             });
 
-        object.then = function (onload) {
+        object.ready = function (onload) {
             this.onload = onload;
+
+            if (this.isReady) {
+                this.onload();
+            }
         }
 
         return object;
