@@ -2,7 +2,7 @@
 An jquery plugin to call asp.net remote methods from javascript
 
 # How to use:
-1. Define the service
+## Define the service
 ```  
 [RemoteService]
 public class BookService
@@ -13,15 +13,15 @@ public class BookService
         return "Book " + aBook.Name + " added";
     }
 ```
-2. Import javascript:
+## Import javascript:
 ```
  <script src="Scripts/jquery.remote.js"></script>
 ```
-3. Get the remote service:
+## Get the remote service:
 ```
 var bookService = $.remoteObject("BookService");
 ```
-4. Use:
+## Use:
 ```
 function buttonClicked() {
     var book = { "Name": "Sample Book" };
