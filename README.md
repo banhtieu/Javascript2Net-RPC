@@ -1,5 +1,6 @@
 # Javascript2Net-RPC
 An jquery plugin to call asp.net remote methods from javascript
+Demo here: http://script2net.apphb.com/
 
 # How to use:
 ## Define the service
